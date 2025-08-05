@@ -10,6 +10,14 @@ A real-time American Sign Language (ASL) translation system that uses computer v
 - **API Integration**: RESTful API for seamless integration with other applications
 - **Cloud Deployment**: Scalable deployment on Google Cloud Platform
 
+## 🖥️ Application Interface
+
+Our web application provides an intuitive interface for ASL translation:
+
+![Frontend Interface](images/frontend-2.png)
+
+*The main interface allows users to upload ASL videos and receive real-time translations.*
+
 ## 📋 Prerequisites
 
 - Python 3.8+
@@ -94,6 +102,24 @@ AI_ASL_Translator/
 └── requirements.txt              # Python dependencies
 ```
 
+## 🏛️ System Architecture
+
+### Solution Architecture
+
+Our solution architecture outlines the complete workflow from data collection to deployment:
+
+![Solution Architecture](images/solution-arch.png)
+
+*The solution architecture shows the three main layers: Process (People), Execution (Code), and State (Source, Data, Models).*
+
+### Technical Architecture
+
+The technical architecture details the implementation components and their interactions:
+
+![Technical Architecture](images/technical-arch.png)
+
+*The technical architecture illustrates the frontend, backend, ML pipeline, and state management components.*
+
 ## 🔧 Configuration
 
 ### Environment Variables
@@ -152,6 +178,10 @@ The application can be deployed to GCP using Ansible playbooks:
 
 Access your deployed application at `http://<EXTERNAL_IP>/`
 
+![Deployment Architecture](images/deployment-single-vm.png)
+
+*The application is deployed on a single VM in Google Cloud Platform with containerized services.*
+
 ## 📊 API Documentation
 
 The API provides the following endpoints:
@@ -160,6 +190,10 @@ The API provides the following endpoints:
 - `GET /health` - Health check endpoint
 - `GET /model-info` - Get model information and statistics
 - `GET /docs` - Interactive API documentation (Swagger UI)
+
+![API Endpoints](images/api-list.png)
+
+*Available API endpoints for the ASL translation service.*
 
 ### Example API Usage
 
