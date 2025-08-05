@@ -18,6 +18,14 @@ Our web application provides an intuitive interface for ASL translation:
 
 *The main interface allows users to upload ASL videos and receive real-time translations.*
 
+### Demo Video
+
+Watch our application in action:
+
+https://github.com/chuqi/AI_ASL_Translator/assets/chuqi/ac215-capy-demo.mp4
+
+*This demo shows the complete workflow from video upload to ASL translation results.*
+
 ## 📋 Prerequisites
 
 - Python 3.8+
