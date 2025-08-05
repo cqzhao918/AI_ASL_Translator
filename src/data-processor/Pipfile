@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+opencv-python = "*"
+google-cloud-aiplatform = "*"
+pandas = "*"
+numpy = "*"
+tqdm = "*"
+tensorflow = "*"
+google-cloud-storage = "*"
+pyarrow = "*"
+mediapipe = "*"
+glob = "*"
+
+[requires]
+python_version = "3.9"

@@ -1,0 +1,7 @@
+pandas
+numpy
+tqdm
+tensorflow==2.13.0
+wandb
+google-cloud-storage
+wandb
